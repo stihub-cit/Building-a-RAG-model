@@ -26,12 +26,6 @@ pip install --quiet --upgrade langchain-text-splitters langchain-community langg
 
 ---
 
-## 📚 Contents
-- **31 Code Cells:** Covering data processing, model definition, and evaluation.
-- **3 Markdown Cells:** Providing step-by-step descriptions of the workflow.
-
----
-
 ## 📝 Notes
 - The initial markdown section is titled **"Dependencies."**
 - The first code cell installs necessary packages:
@@ -45,12 +39,5 @@ pip install --quiet --upgrade langchain-text-splitters langchain-community langg
 The performance improvement is evaluated using BLEU scores:
 - **Before RAG:** Baseline results without document retrieval.
 - **After RAG:** Enhanced results by incorporating relevant information into the responses.
-
----
-
-## 🔥 Future Enhancements
-- Optimize document retrieval to reduce latency.
-- Experiment with different LLMs to enhance response accuracy.
-- Fine-tune the RAG pipeline for domain-specific tasks.
 
 Happy Coding! 🎉
