@@ -3,7 +3,7 @@
 ## 🚀 Overview
 This notebook demonstrates the implementation of a **Retrieval-Augmented Generation (RAG) model** to improve the accuracy of generated answers by incorporating external knowledge. The workflow involves:
 
-✅ **Dependencies:** Installation of required packages such as `langchain`, `langgraph`, and other community modules.  
+✅ **Dependencies:** Installation of required packages such as `langchain` and `langgraph`. 
 ✅ **Data Preprocessing:** Text is segmented and prepared using `langchain-text-splitters` for better retrieval.  
 ✅ **Model Implementation:** A RAG pipeline is developed to retrieve relevant documents and generate improved responses.  
 ✅ **Evaluation:** BLEU scores are calculated to assess the model’s performance before and after applying RAG.
